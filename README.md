@@ -1,5 +1,5 @@
-# Running custom terraform script
-Compile custom terraform script
+# Running custom terraform plugin
+Compile custom terraform plugin that shows your external IP
  
 ## pre-requirements
 
@@ -21,7 +21,7 @@ Compile custom terraform script
     cd terraform-custom-plugin.git
     vagrant up
     vagrant ssh
-    cd /vargrant
+    cd /vagrant
     terraform init
     terraform apply
 ```
