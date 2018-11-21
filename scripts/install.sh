@@ -40,6 +40,3 @@ which terraform &>/dev/null || {
   sudo rm terraform_0.11.10_linux_amd64.zip
   popd
 }
-
-###Compile the plug-in
-sudo -S -u vagrant -i /bin/bash -l -c '/vagrant/scripts/install_plugin.sh'
